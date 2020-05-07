@@ -84,7 +84,7 @@ class EditContact extends Component {
                         const { dispatch } = value;
                         return (
                             <div className="card mb-3">
-                                <div className="card-header">Add Contact</div>
+                                <div className="card-header">Update Contact</div>
                                 <div className="card-body">
                                     <form onSubmit={this.onSubmit.bind(this, dispatch)}>
 
@@ -148,7 +148,7 @@ class EditContact extends Component {
                                                 className="form-control form-control-lg" 
                                                 onChange={this.onChange} />
                                         </div> */}
-                                        <input type="submit" value="Add Contact" className="btn btn-light btn-block" />
+                                        <input type="submit" value="Update Contact" className="btn btn-light btn-block" />
                                     </form>
                                 </div>
                             </div>
